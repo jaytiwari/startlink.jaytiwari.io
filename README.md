@@ -3,7 +3,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <title>Your Name | Personal Website</title>
+  <title>Jay Tiwari </title>
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <style>
     body {
@@ -141,9 +141,9 @@
   <header>
     <!-- Replace src with your photo URL or remove the img tag -->
     <img src="https://via.placeholder.com/120" alt="Your profile photo">
-    <h1>Your Name</h1>
-    <p class="tagline">Role or Title • e.g. Senior Software Engineer | Interview Coach</p>
-    <p>I help software engineers crack system design and coding interviews with clear frameworks and practical guidance.</p>
+    <h1>Jay tiwari</h1>
+    <p class="tagline">Engineering Manager | Interview Coach</p>
+    <p>I help software engineers and engineering managers crack system design and coding interviews with clear frameworks and practical guidance.</p>
     <div class="cta-buttons">
       <a href="#contact" class="btn btn-primary">Book a session</a>
       <a href="#offers" class="btn btn-outline">View all offerings</a>
@@ -261,7 +261,7 @@
   </div>
 
   <footer>
-    © <span id="year"></span> Your Name · All rights reserved
+    © <span id="year"></span> Jay Tiwari· All rights reserved
   </footer>
 
   <script>
