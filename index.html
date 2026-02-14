@@ -1,4 +1,3 @@
-<html>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -142,7 +141,9 @@
     <!-- Replace src with your photo URL or remove the img tag -->
     <img src="https://via.placeholder.com/120" alt="Your profile photo">
     <h1>Jay tiwari</h1>
+    <h1>Your Name</h1>
     <p class="tagline">Engineering Manager | Interview Coach</p>
+    <p class="tagline">Role or Title • e.g. Senior Software Engineer | Interview Coach</p>
     <p>I help software engineers and engineering managers crack system design and coding interviews with clear frameworks and practical guidance.</p>
     <div class="cta-buttons">
       <a href="#contact" class="btn btn-primary">Book a session</a>
@@ -152,12 +153,116 @@
 
   <div class="container">
 
+    <!-- QUICK INFO / HIGHLIGHTS -->
+    <section class="section">
+      <h2>Why work with me?</h2>
+      <p>
+        Over 15+ years in the industry, I have mentored candidates into companies like FAANG, high-growth startups, and top tech firms.
+      </p>
+      <div class="badges">
+        <span>4.9/5 rating on topmate.io/jay_tiwari</span>
+        <span>70+ testimonials</span>
+        <span>200+ sessions</span>
+      </div>
+    </section>
 
+    <!-- OFFERINGS SECTION -->
+    <section class="section" id="offers">
+      <h2>Sessions and offerings</h2>
+      <ul class="offer-list">
+        <li class="offer-item">
+          <div class="offer-title">Resume review</div>
+          <div class="offer-meta">30 minutes • Online call</div>
+          <p>
+            Get detailed, actionable feedback on your resume to highlight your impact and align with target roles.
+          </p>
+        </li>
+        <li class="offer-item">
+          <div class="offer-title">Mock system design interview</div>
+          <div class="offer-meta">60 minutes • Online call</div>
+          <p>
+            Practice end-to-end system design interviews with real-world scenarios and structured feedback.
+          </p>
+        </li>
+        <li class="offer-item">
+          <div class="offer-title">Interview readiness & prep plan</div>
+          <div class="offer-meta">45 minutes • Online call</div>
+          <p>
+            Assess your current level, identify gaps, and leave with a clear, customized preparation roadmap.
+          </p>
+        </li>
+        <li class="offer-item">
+          <div class="offer-title">Ask me anything (AMA)</div>
+          <div class="offer-meta">15 minutes • Chat or call</div>
+          <p>
+            Use this for quick questions about career moves, interviews, or tech roadmap decisions.
+          </p>
+        </li>
+      </ul>
+    </section>
+
+    <!-- ABOUT SECTION -->
+    <section class="section" id="about">
+      <h2>About me</h2>
+      <p>
+        I’m a software engineer currently working at [Your Company], with experience in backend systems, distributed architecture, and large-scale web applications.
+      </p>
+      <p>
+        I’ve interviewed and mentored dozens of engineers, and I enjoy simplifying complex topics into easy-to-follow steps.
+      </p>
+    </section>
+
+    <!-- TESTIMONIALS SECTION -->
+    <section class="section testimonials">
+      <h2>Testimonials</h2>
+      <blockquote>
+        “The session was very detailed and helped me understand exactly where my system design approach was weak
+        and how to improve it.”
+        <cite>— Candidate A, SDE interview prep</cite>
+      </blockquote>
+      <blockquote>
+        “Clear, structured feedback and real examples from the industry. I left the call with a concrete action plan.”
+        <cite>— Candidate B, mid-level engineer</cite>
+      </blockquote>
+    </section>
+
+    <!-- CONTACT / FORM SECTION -->
+    <section class="section" id="contact">
+      <h2>Book a session or say hi</h2>
+      <p>
+        Fill out this simple form and I’ll reply with available slots and next steps.
+      </p>
+      <form>
+        <p>
+          <label for="name">Name</label><br>
+          <input type="text" id="name" name="name" style="width:100%; padding:8px;" />
+        </p>
+        <p>
+          <label for="email">Email</label><br>
+          <input type="email" id="email" name="email" style="width:100%; padding:8px;" />
+        </p>
+        <p>
+          <label for="session-type">What are you looking for?</label><br>
+          <select id="session-type" name="session-type" style="width:100%; padding:8px;">
+            <option>Resume review</option>
+            <option>System design mock</option>
+            <option>Coding interview mock</option>
+            <option>Career guidance</option>
+            <option>Other / not sure</option>
+          </select>
+        </p>
+        <p>
+          <label for="message">Message (optional)</label><br>
+          <textarea id="message" name="message" rows="4" style="width:100%; padding:8px;"></textarea>
+        </p>
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </form>
+    </section>
 
   </div>
 
   <footer>
-    © <span id="year"></span> Jay Tiwari· All rights reserved
+    © <span id="year"></span> Your Name · All rights reserved
   </footer>
 
   <script>
